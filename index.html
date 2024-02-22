@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Tier List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Minecraft Tier List</h1>
+        </div>
+        <div class="tier-list">
+            <div class="tier">
+                <h2>Tier 1</h2>
+                <div class="player" onclick="showPopup('Player 1')">Player 1</div>
+                <div class="player" onclick="showPopup('Player 2')">Player 2</div>
+            </div>
+            <div class="tier">
+                <h2>Tier 2</h2>
+                <div class="player" onclick="showPopup('Player 3')">Player 3</div>
+                <div class="player" onclick="showPopup('Player 4')">Player 4</div>
+            </div>
+            <div class="tier">
+                <h2>Tier 3</h2>
+                <div class="player" onclick="showPopup('Player 5')">Player 5</div>
+                <div class="player" onclick="showPopup('Player 6')">Player 6</div>
+            </div>
+            <div class="tier">
+                <h2>Tier 4</h2>
+                <div class="player" onclick="showPopup('Player 7')">Player 7</div>
+                <div class="player" onclick="showPopup('Player 8')">Player 8</div>
+            </div>
+            <div class="tier">
+                <h2>Tier 5</h2>
+                <div class="player" onclick="showPopup('Player 9')">Player 9</div>
+                <div class="player" onclick="showPopup('Player 10')">Player 10</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup()">&times;</span>
+            <div id="playerInfo"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
